@@ -1,19 +1,19 @@
 
 //HEADER BG COLOR CHANGE
-var position = $(window).scrollTop();
+// var position = $(window).scrollTop();
 
-// should start at 0
+// // should start at 0
 
-$(window).scroll(function () {
-    var scroll = $(window).scrollTop();
-    if (scroll > position) {
-        $('.header').css('background-color', 'var( --primary-color)');
+// $(window).scroll(function () {
+//     var scroll = $(window).scrollTop();
+//     if (scroll > position) {
+//         $('.header').css('background-color', 'var( --primary-color)');
 
-    } else {
-        $('.header').css('background-color', 'transparent');
-    }
-    position = scroll;
-});
+//     } else {
+//         $('.header').css('background-color', 'transparent');
+//     }
+//     position = scroll;
+// });
 // HEADER SERVICES DROPDOWN
 
 $('.services-a').mouseover(function () {
